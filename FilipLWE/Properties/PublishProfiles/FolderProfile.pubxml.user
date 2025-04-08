@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- https://go.microsoft.com/fwlink/?LinkID=208121. -->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Repos\publish\FilipLWE</_PublishTargetUrl>
+    <History>True|2025-04-07T21:50:17.5415084Z||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Server=%28localdb%29\mssqllocaldb%3bDatabase=aspnet-FilipLWE-87f3867c-f9d7-4c6e-bba6-06ad5eefa58f%3bTrusted_Connection=True%3bMultipleActiveResultSets=true</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="FilipLWE.Data.ApplicationDbContext">
+      <Value>Server=%28localdb%29\mssqllocaldb%3bDatabase=aspnet-FilipLWE-87f3867c-f9d7-4c6e-bba6-06ad5eefa58f%3bTrusted_Connection=True%3bMultipleActiveResultSets=true</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

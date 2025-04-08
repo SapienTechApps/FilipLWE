@@ -1,0 +1,5 @@
+C:\Repos\FilipLWE\FilipLWE.Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Repos\FilipLWE\FilipLWE.Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Repos\FilipLWE\FilipLWE.Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Repos\FilipLWE\FilipLWE.Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Repos\FilipLWE\FilipLWE.Client\obj\Debug\net9.0\staticwebassets.build.json

@@ -1,0 +1,11 @@
+C:\Repos\FilipLWE\FilipLWE.Shared\bin\Debug\net9.0\FilipLWE.Shared.deps.json
+C:\Repos\FilipLWE\FilipLWE.Shared\bin\Debug\net9.0\FilipLWE.Shared.dll
+C:\Repos\FilipLWE\FilipLWE.Shared\bin\Debug\net9.0\FilipLWE.Shared.pdb
+C:\Repos\FilipLWE\FilipLWE.Shared\obj\Debug\net9.0\FilipLWE.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repos\FilipLWE\FilipLWE.Shared\obj\Debug\net9.0\FilipLWE.Shared.AssemblyInfoInputs.cache
+C:\Repos\FilipLWE\FilipLWE.Shared\obj\Debug\net9.0\FilipLWE.Shared.AssemblyInfo.cs
+C:\Repos\FilipLWE\FilipLWE.Shared\obj\Debug\net9.0\FilipLWE.Shared.csproj.CoreCompileInputs.cache
+C:\Repos\FilipLWE\FilipLWE.Shared\obj\Debug\net9.0\FilipLWE.Shared.dll
+C:\Repos\FilipLWE\FilipLWE.Shared\obj\Debug\net9.0\refint\FilipLWE.Shared.dll
+C:\Repos\FilipLWE\FilipLWE.Shared\obj\Debug\net9.0\FilipLWE.Shared.pdb
+C:\Repos\FilipLWE\FilipLWE.Shared\obj\Debug\net9.0\ref\FilipLWE.Shared.dll

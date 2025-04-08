@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+	<Product Id="*" Name="FilipLWE" Language="1033" Version="1.0.0.0" Manufacturer="SapienTech" UpgradeCode="29d8a3f6-5579-4c9f-b254-6c7e3c86e94e">
+		<Package InstallerVersion="500" Compressed="yes" InstallScope="perMachine" />
+
+		<MajorUpgrade DowngradeErrorMessage="A newer version of FilipLWE is already installed." />
+		<MediaTemplate />
+
+		<Feature Id="MainFeature" Title="FilipLWE" Level="1">
+			<ComponentGroupRef Id="FilipLWEComponents" />
+		</Feature>
+
+		<Property Id="ARPPRODUCTICON" Value="icon.ico" />
+
+		<!-- Zápis do registra -->
+		<DirectoryRef Id="TARGETDIR">
+			<Component Id="RegKeys" Guid="b73bc0b0-6829-4db6-b2cc-9b289c77cb2f">
+				<RegistryKey Root="HKLM" Key="Software\FilipLWE">
+					<RegistryValue Name="InstallPath" Value="[INSTALLFOLDER]" Type="string" KeyPath="yes" />
+				</RegistryKey>
+			</Component>
+		</DirectoryRef>
+	</Product>
+
+	<Fragment>
+		<Directory Id="TARGETDIR" Name="SourceDir">
+			<Directory Id="ProgramFilesFolder">
+				<Directory Id="INSTALLFOLDER" Name="FilipLWE" />
+			</Directory>
+		</Directory>
+	</Fragment>
+
+	<Fragment>
+		<ComponentGroup Id="FilipLWEComponents" Directory="INSTALLFOLDER">
+			<!-- Sem doplníme všetky súbory projektu -->
+			<Component Id="LauncherExe" Guid="fdf6ed80-c1f8-4d94-9e7e-b9d4b95ee4bc">
+				<File Id="FilipLWE.Launcher.exe" Source="..\FilipLWE.Launcher\bin\Release\net9.0-windows\FilipLWE.Launcher.exe" />
+			</Component>
+			<ComponentRef Id="RegKeys" />
+		</ComponentGroup>
+	</Fragment>
+</Wix>
