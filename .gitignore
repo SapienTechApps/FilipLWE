@@ -1,1 +1,41 @@
-".vs\nbin\nobj\n*.user\n*.suo\n*.log\n*.tmp" 
+# ?? Visual Studio
+.vs/
+*.user
+*.suo
+
+# ?? Build output
+bin/
+obj/
+*.pdb
+*.log
+*.tmp
+
+# ?? Blazor / WebAssembly
+wwwroot/
+*.gz
+*.br
+
+# ?? NuGet / packages
+*.nupkg
+*.snupkg
+packages/
+
+# ?? Rider / JetBrains
+.idea/
+
+# ?? Test / coverage výstupy (ak používaš)
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+
+# ?? OS špecifické veci
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ?? Lokálne konfigurácie a zálohy
+*.bak
+*.old
+*.orig
+*.swp
